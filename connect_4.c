@@ -236,7 +236,7 @@ void drawBoard(SDL_Renderer *renderer, char board[ROWS][COLS], char currentPlaye
     SDL_RenderPresent(renderer);
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     char board[ROWS][COLS];
     int winMask[ROWS][COLS] = {0};
     initializeBoard(board);
